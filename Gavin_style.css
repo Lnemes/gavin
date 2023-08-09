@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+}
+
+body {
+    background-image: url("Gavin-cropped.jpg");
+    height: 843;
+    width: 495px;
+    background-attachment: fixed;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    margin: 5px;
+    overflow-y: scroll;
+    /*object-fit: contain; */
+    /*max-height: 100vh;*/
+    /*margin: auto; */
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    width: 80%;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*.main{ 
+    overflow-y: scroll;
+    background-color: black;
+}*/
+
+body { position: absolute; }
+
+.topnav {
+    background-color: blue;
+    overflow: hidden;
+    text-align: center;
+}
+
+.page {
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 14px 27px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.page:hover {
+    color:#4c79ff;
+
+}
+
+.form {
+    background-color: #4d4de6;
+    width: 380px;
+    padding: 10px 40px;
+    margin: auto;
+    /* transform: translate(-50%, -50%); */
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+.form p, label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.drop-down {
+    background-color: #4d4de6;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.drop-down label {
+    padding: 10px;
+}
+
+.select option {
+    color: black;
+}
+
+.impact {
+    background-color: #4d4de6;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.impact label{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.impact textarea{
+    width: 200px;
+    margin: auto;
+    padding: auto;
+    margin-top: 12px;
+}
+
+.pic {
+    
+    margin-left: 80px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px
+} 
